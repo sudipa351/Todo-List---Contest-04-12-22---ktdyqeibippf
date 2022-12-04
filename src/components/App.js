@@ -32,6 +32,7 @@ function App() {
     const taskCopy = [...tasks];
     taskCopy.forEach((task) => {
       if (task.id === id) {
+		  console.log(task.id)
         task.text = newtext;
       }
     });
