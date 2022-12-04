@@ -27,7 +27,7 @@ export default function Task(props) {
         Edit
       </button>
       <button className="delete" onClick={() => handleDelete(task.id)}>
-        Delete
+        Delete Button
       </button>
       {showEdit ? (
         <div>
